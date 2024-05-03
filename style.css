@@ -70,7 +70,10 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: #ebdbc8;
+    background: linear-gradient(rgba(235, 219, 200,0.9),rgba(235, 219, 200,0.9)), url(img/monilesmartrock2.webp);
+    background-size: cover;
+    background-position: right;
+    /* background: #ebdbc8; */
     gap: 1rem;
 }
 .home-text {
